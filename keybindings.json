@@ -10,22 +10,17 @@
     "command": "-cursorWordEndRight",
     "when": "textInputFocus"
   },
-  {
+  /*{
     "key": "shift+l",
-    "command": "workbench.action.nextEditor"
-  },
-  {
-    "key": "ctrl+alt+cmd+[Minus]",
-    "command": "-workbench.action.nextEditor"
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus"
   },
   {
     "key": "shift+h",
-    "command": "workbench.action.previousEditor"
-  },
-  {
-    "key": "ctrl+alt+cmd+5",
-    "command": "-workbench.action.previousEditor"
-  },
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus"
+  },*/
+
   {
     "key": "ctrl+shift+alt+`",
     "command": "cursorWordLeft",
@@ -49,11 +44,6 @@
   {
     "key": "shift+alt+cmd+k",
     "command": "cursorRightSelect",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "shift+right",
-    "command": "-cursorRightSelect",
     "when": "textInputFocus"
   },
   {
@@ -87,10 +77,10 @@
     "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused"
   },
 
-  {
-    "key": "ctrl+shift+alt+cmd+[Period]",
-    "command": "-workbench.action.splitEditor"
-  },
+  // {
+  //   "key": "ctrl+shift+alt+cmd+[Period]",
+  //   "command": "-workbench.action.splitEditor"
+  // },
 
   {
     "key": "cmd+k cmd+left",
@@ -101,7 +91,6 @@
     "key": "cmd+k cmd+down",
     "command": "-workbench.action.focusBelowGroup"
   },
-
   {
     "key": "cmd+k cmd+up",
     "command": "-workbench.action.focusAboveGroup"
@@ -112,15 +101,15 @@
     "command": "-workbench.action.focusRightGroup"
   },
 
-  {
-    "key": "cmd+k ctrl+shift+alt+cmd+[Period]",
-    "command": "-workbench.action.splitEditorOrthogonal"
-  },
-  {
-    "key": "space p",
-    "command": "editor.action.formatDocument",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-  },
+  // {
+  //   "key": "cmd+k ctrl+shift+alt+cmd+[Period]",
+  //   "command": "-workbench.action.splitEditorOrthogonal"
+  // },
+  // {
+  //   "key": "space p",
+  //   "command": "editor.action.formatDocument",
+  //   "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  // },
 
   {
     "command": "workbench.action.toggleSidebarVisibility",
@@ -153,11 +142,11 @@
     "command": "explorer.newFolder",
     "when": "explorerViewletFocus"
   },
-  {
-    "key": "shift+n",
-    "command": "workbench.action.newWindow",
-    "when": "!explorerViewletFocus"
-  },
+  // {
+  //   "key": "shift+n",
+  //   "command": "workbench.action.newWindow",
+  //   "when": "!explorerViewletFocus"
+  // },
   {
     "command": "deleteFile",
     "key": "d",
