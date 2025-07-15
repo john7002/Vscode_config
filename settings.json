@@ -9,7 +9,10 @@
   "vim.useSystemClipboard": true,
   "vim.normalModeKeyBindingsNonRecursive": [
     // splits
-    { "before": ["leader", "v"], "commands": [":vsplit"] },
+    {
+      "before": ["leader", "v"],
+      "commands": [":vsplit"]
+    },
     { "before": ["leader", "s"], "commands": [":split"] },
 
     // panes
@@ -28,6 +31,24 @@
     {
       "before": ["leader", "l"],
       "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["d", "d"],
+      "after": ["\"", "_", "d", "d"]
+    },
+    {
+      "before": ["d"],
+      "after": ["\"", "_", "d"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["L"],
+       "commands": ["workbench.action.nextEditor"]
     }
   ]
 }
