@@ -27,3 +27,27 @@ Here are the defined keyboard shortcuts and their actions:
 | r                         | 	renommer fichier dans l'explorateur                   | 	Contexte : filesExplorerFocus && !inputFocus
 | Shift + N                         | 	nouveau dossier dans l'explorateur                  | 	Contexte : explorerViewletFocus
 | d                         | 	supprimer fichier dans l'explorateur                  | 	Contexte : filesExplorerFocus && !inputFocus
+
+
+## Switch Caplocks button to ESC
+
+### On Ubuntu
+Type in the terminal:
+```
+sudo apt install gnome-tweaks
+```
+Launch it via:
+```
+gnome-tweaks
+```
+* go to “Keyboard & Mouse” tab, and click on “Additional Layout Options”
+* Inside “Caps Lock Behavior” choose “Make Caps Lock an additional Esc”
+
+### On MACOs
+* Got to Preference -> Keyboard -> "Modification keys" and select "Escape" in "Caplocks Key".
+
+<img src="caplocks.png"
+     style="width:300px;height=400px" />
+     
+     
+ * In Preference -> Keyboard . Remove shortkey using C^-Up and C^-Down
