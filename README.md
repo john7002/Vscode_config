@@ -44,7 +44,7 @@ gnome-tweaks
 * Inside “Caps Lock Behavior” choose “Make Caps Lock an additional Esc”
 
 ### On MACOs
-* Got to Preference -> Keyboard -> "Modification keys" and select "Escape" in "Caplocks Key".
+* Got to Preference -> Keyboard -> "Shortcuts" -> "modify keys" -> set Maj key as ESC
 
 <img src="caplocks.png"
      style="width:300px;height=400px" />
