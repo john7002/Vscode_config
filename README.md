@@ -31,10 +31,10 @@ Here are the defined keyboard shortcuts and their actions:
 | C                         | 	changes from the cursor until the end on the line                 | 	Mode normal de Vim
 | gi                         | 	go back to the last place where you made a change                 | 	Mode normal de Vim
 | `CTRL-H`                  |      remove the last character you typed                               |   Mode Insert
-| - `CTRL-W`                |      remove the last word you typed                                    |   Mod Insert
-| - `CTRL-U`                |       remove the last line you typed (mnemonic *u*ndo this line)       |   Mod Insert
-
-
+| `CTRL-W`                |      remove the last word you typed                                    |   Mod Insert
+| `CTRL-U`                |       remove the last line you typed (mnemonic *u*ndo this line)       |   Mod Insert
+| `CTRL-V` (select lines) + I      |      Insert at the beginning of every lines selected           | 	Mode normal de Vim
+| `CTRL-V` (select lines) + $A      |      Insert at the end of every lines selected           | 	Mode normal de Vim
 
 ## Switch Caplocks button to ESC
 
