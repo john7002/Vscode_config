@@ -29,6 +29,8 @@ Here are the defined keyboard shortcuts and their actions:
 | d                         | 	supprimer fichier dans l'explorateur                  | 	Contexte : filesExplorerFocus && !inputFocus
 | cc                         | 	changes a complete line                  | 	Mode normal de Vim
 | C                         | 	changes from the cursor until the end on the line                 | 	Mode normal de Vim
+| gi                         | 	go back to the last place where you made a change                 | 	Mode normal de Vim
+
 
 ## Switch Caplocks button to ESC
 
