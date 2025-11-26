@@ -20,6 +20,7 @@ Here are the defined keyboard shortcuts and their actions:
 | Leader + j                         | Focalise le groupe de fenêtres en dessous                   | Mode normal de Vim                               |
 | Leader + k                         | Focalise le groupe de fenêtres au-dessus                    | Mode normal de Vim                               |
 | Leader + l                         | Focalise le groupe de fenêtres à droite                     | Mode normal de Vim                               |
+| Leader + x                         | Ferme la fenêtre courante                                   | Mode normal de Vim                               |
 | Shift + H                                  | Passe à l'éditeur précédent                                  | Mode normal de Vim                               |
 | Shift + L                                  | Passe à l'éditeur suivant                                    | Mode normal de Vim                               |
 | Ctrl + E                         | 	afficher la barre latérale de navigation de fichier                   | 	
