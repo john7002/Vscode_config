@@ -28,6 +28,7 @@ Here are the defined keyboard shortcuts and their actions:
 | r                         | 	renommer fichier dans l'explorateur                   | 	Contexte : filesExplorerFocus && !inputFocus
 | Shift + N                         | 	nouveau dossier dans l'explorateur                  | 	Contexte : explorerViewletFocus
 | d                         | 	supprimer fichier dans l'explorateur                  | 	Contexte : filesExplorerFocus && !inputFocus
+| D                         | 	supprimer jusque la fin de la ligne                  | 	Mode normal de Vim
 | cc                         | 	changes a complete line                  | 	Mode normal de Vim
 | C                         | 	changes from the cursor until the end on the line                 | 	Mode normal de Vim
 | gi                         | 	go back to the last place where you made a change                 | 	Mode normal de Vim
