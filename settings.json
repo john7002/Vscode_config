@@ -33,6 +33,10 @@
       "commands": ["workbench.action.focusRightGroup"]
     },
     {
+      "before": ["leader", "x"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
       "before": ["d", "d"],
       "after": ["\"", "_", "d", "d"]
     },
